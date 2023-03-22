@@ -1,6 +1,6 @@
 <h1>Sign in</h1>
 
-<%= form_with url: sign_in_path, data: {turbo: false}git do |form| %>
+<%= form_with url: sign_in_path, data: {turbo: false} do |form| %>
   <div class="mb-3">
     <%= form.label :mail %>
     <%= form.text_field :email, class: "form-control", placeholder: "test@test.com" %>
